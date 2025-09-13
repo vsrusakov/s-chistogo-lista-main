@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: #1e1e1e;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   display: flex;
   flex-direction: column;
@@ -23,219 +23,231 @@ blockquote {
 }
 
 .content-section {
-    width: 360px;
-    box-sizing: border-box;
+  width: 360px;
+  box-sizing: border-box;
 }
 
 .content-section_theme_dark {
-    background-color: #131313;
-    color: #f5f5f5;
+  background-color: #131313;
+  color: #f5f5f5;
 }
 
 .content-section_theme_bright {
-    background-color: #FEE42A;
-    color: #131313;
+  background-color: #fee42a;
+  color: #131313;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 24px 20px;
-    min-height: 132px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 20px;
+  min-height: 132px;
 }
 
-.header__logo
+.header__logo {
+  display: block;
+  width: 78px;
+}
 
 .header__logo-image {
-    width: 78.45px;
-    height: 15.43px;
+  width: 100%;
 }
 
-.header__menu 
+.header__menu .header__menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  list-style: none;
+  height: 100%;
+}
 
-.header__menu-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    list-style: none;
-    height: 100%;
+.header__menu-item_active .header__menu-link {
+  text-decoration: none;
 }
 
 .header__menu-item {
-    line-height: 19.2px;
+  line-height: 19.2px;
 }
 
 .cover {
-    min-height: 221px;
-    padding: 7px 0 0 20px;
-    background-image: url('../images/cover.svg');
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 95% auto;
+  min-height: 221px;
+  padding: 7px 24px 0 20px;
+  background-image: url("../images/cover.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 95% auto;
 }
 
 .cover__title {
-    font-family: 'EB Garamond', sans-serif;
-    font-size: 72px;
-    font-weight: 400;
-    line-height: 100%;
-    padding-bottom: 5px;
-    padding-right: 24px;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 100%;
+  padding-bottom: 5px;
+  /* padding-right: 24px; */
 }
 
 .accent-span {
-    display: block;
+  display: block;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
 .text-left {
-    text-align: left;
+  text-align: left;
 }
 
 .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 24px;
-    padding: 30px 20px 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 24px;
+  padding: 30px 20px 38px;
 }
 
 .intro__heading {
-    color: #ccc;
-    display: flex;
-    justify-content: space-between;
-    line-height: 120%;
+  color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  line-height: 120%;
 }
 
 .intro__title {
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
 }
 
 .intro__date {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .intro__main-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 24px;
-    color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  gap: 24px;
+  color: #f5f5f5;
 }
 
 .reson {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px 20px;
 }
 
 .content-section__subtitle {
-    font-family: 'EB Garamond', sans-serif;
-    font-size: 28px;
-    line-height: 115%;
-    font-weight: 500;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 28px;
+  line-height: 115%;
+  font-weight: 500;
 }
 
 .content-section__introduction {
-    line-height: 27px;
-    font-size: 20px;
+  line-height: 27px;
+  font-size: 20px;
 }
 
 .content-section__list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 16px;
 }
 
 .content-section__list-item {
-    line-height: 21.6px;
+  line-height: 135%;
 }
 
 .content-section__list-accent {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .how-to {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    padding: 40px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px 20px 60px;
 }
 
 .cards-list {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  list-style: none;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    border-radius: 30px;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .card_theme_dark {
-    background-color: #343434;
-    color: #f5f5f5;
+  background-color: #343434;
+  color: #f5f5f5;
 }
 
 .card_theme_bright {
-    background-color: #FEE42A;
-    color: #131313;
+  background-color: #fee42a;
+  color: #131313;
 }
 
-.card__author
-
-.card__author-photo {
-    display: block;
-    width: 100px;
-    margin-bottom: 8px;
+.card__author .card__author-photo {
+  display: block;
+  width: 100px;
+  margin-bottom: 8px;
 }
 
 .card__author-name {
-    line-height: 135%;
-    font-weight: 700;
+  line-height: 135%;
+  font-weight: 700;
 }
 
 .card__title {
-    font-family: 'EB Garamond', sans-serif;
-    line-height: 135%;
-    font-size: 22px;
-    font-weight: 500;
+  font-family: "EB Garamond", sans-serif;
+  line-height: 135%;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .card__text {
-    margin-top: 8px;
-    line-height: 21.6px;
+  margin-top: 8px;
+  line-height: 21.6px;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    border-top: 1px solid #FEE42A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid #fee42a;
 }
 
 .footer__copy {
-    line-height: 135%;
+  line-height: 135%;
 }
 
 .footer__links {
-    display: flex;
-    gap: 16px;
-    list-style: none;
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.footer__links a {
+  color: #f5f5f5;
+  font-size: 14px;
+  line-height: 125%;
+  text-decoration: none;
 }
