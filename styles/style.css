@@ -1,11 +1,11 @@
 body {
-  margin: 0;
-  background-color: #1e1e1e;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  background-color: #1e1e1e;
 }
 
 h1,
@@ -23,26 +23,26 @@ blockquote {
 }
 
 .content-section {
-  width: 360px;
   box-sizing: border-box;
+  width: 360px;
 }
 
 .content-section_theme_dark {
-  background-color: #131313;
   color: #f5f5f5;
+  background-color: #131313;
 }
 
 .content-section_theme_bright {
-  background-color: #fee42a;
   color: #131313;
+  background-color: #fee42a;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 24px 20px;
   min-height: 132px;
+  padding: 24px 20px;
 }
 
 .header__logo {
@@ -59,8 +59,8 @@ blockquote {
   flex-direction: column;
   justify-content: space-between;
   gap: 12px;
-  list-style: none;
   height: 100%;
+  list-style: none;
 }
 
 .header__menu-item_active .header__menu-link {
@@ -81,11 +81,11 @@ blockquote {
 }
 
 .cover__title {
-  font-family: "EB Garamond", sans-serif;
-  font-size: 72px;
-  font-weight: 400;
-  line-height: 100%;
   padding-bottom: 5px;
+  font-family: "EB Garamond", sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
   /* padding-right: 24px; */
 }
 
@@ -114,9 +114,9 @@ blockquote {
 }
 
 .intro__heading {
-  color: #ccc;
   display: flex;
   justify-content: space-between;
+  color: #ccc;
   line-height: 120%;
 }
 
@@ -147,14 +147,14 @@ blockquote {
 
 .content-section__subtitle {
   font-family: "EB Garamond", sans-serif;
+  font-weight: 500;
   font-size: 28px;
   line-height: 115%;
-  font-weight: 500;
 }
 
 .content-section__introduction {
-  line-height: 27px;
   font-size: 20px;
+  line-height: 27px;
 }
 
 .content-section__list {
@@ -195,13 +195,13 @@ blockquote {
 }
 
 .card_theme_dark {
-  background-color: #343434;
   color: #f5f5f5;
+  background-color: #343434;
 }
 
 .card_theme_bright {
-  background-color: #fee42a;
   color: #131313;
+  background-color: #fee42a;
 }
 
 .card__author .card__author-photo {
@@ -211,15 +211,15 @@ blockquote {
 }
 
 .card__author-name {
-  line-height: 135%;
   font-weight: 700;
+  line-height: 135%;
 }
 
 .card__title {
   font-family: "EB Garamond", sans-serif;
-  line-height: 135%;
-  font-size: 22px;
   font-weight: 500;
+  font-size: 22px;
+  line-height: 135%;
 }
 
 .card__text {
@@ -231,8 +231,8 @@ blockquote {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   border-top: 1px solid #fee42a;
+  padding: 20px;
 }
 
 .footer__copy {
